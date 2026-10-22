@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Info.plist
+   ChefBuddy
+
+   Created by Hrudhai Umas on 3/11/26.
+   Copyright (c) 2026 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+<dict>
+	<key>INSTACART_API_BASE_URL</key>
+	<string>https://connect.instacart.com</string>
+	<key>INSTACART_API_KEY</key>
+	<string></string>
+    <key>NSCameraUsageDescription</key>
+    <string>ChefBuddy needs camera access to see your ingredients and provide real-time AI cooking guidance</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>ChefBuddy needs microphone access so you can ask cooking questions hands-free while you cook</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>ChefBuddy uses speech recognition to transcribe your voice questions while cooking</string>
+    <key>GOOGLE_TTS_VOICE</key>
+    <string>en-US-Journey-D</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>edu.uw.ischool.hrudhaiu.ChefBuddy.recipe</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>chefbuddy</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>com.googleusercontent.apps.553632958296-3nk01462dhlvbs0plb44cp2lcrtmd33h</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.553632958296-3nk01462dhlvbs0plb44cp2lcrtmd33h</string>
+            </array>
+        </dict>
+    </array>
+    <key>CHEFBUDDY_APP_STORE_URL</key>
+    <string></string>
+</dict>
+</plist>
