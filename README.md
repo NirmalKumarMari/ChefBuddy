@@ -18,7 +18,3 @@ A native iOS app that turns a photo of your fridge into recipes and then guides 
 2. Create your own Firebase project, enable Firestore, Storage, and Firebase AI Logic, and add its `GoogleService-Info.plist` to the `ChefBuddy` target. This file is not included in the repository.
 3. Optional: set `GOOGLE_TTS_API_KEY` and `INSTACART_API_KEY` in the app configuration to enable voice output and one-tap shopping.
 4. Build and run on a device (the camera is needed for the fridge scan).
-
-## Credits
-
-Built with Hrudhai Umas.
